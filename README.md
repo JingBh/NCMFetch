@@ -12,8 +12,9 @@ NCMFetch 可以帮您下载[网易云音乐](https://music.163.com/)上的歌曲
 
 ### In command line:
 ```bash
-git clone https://github.com/JingBh/NCMFetch
-yarn install
+git clone https://github.com/JingBh/NCMFetch.git
+cd NCMFetch
+yarn install  # run "npm install" if you don't have Yarn.
 ```
 
 ### In your Node project:
