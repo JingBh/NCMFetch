@@ -1,12 +1,11 @@
 {
-  "name": "@jingbh/ncmfetch",
-  "version": "0.1.0",
+  "name": "ncmfetch",
+  "version": "0.1.1",
   "description": "Download any music on music.163.com",
   "repository": "github:JingBh/NCMFetch",
   "main": "fetch.js",
   "author": "JingBh",
   "license": "GPL-3.0-or-later",
-  "private": false,
   "dependencies": {
     "axios": "^0.19.2",
     "crypto-js": "^4.0.0",

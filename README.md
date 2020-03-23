@@ -1,38 +1,43 @@
-NCMFetch
----
+# NCMFetch
+
+![Version](https://img.shields.io/github/package-json/v/JingBh/NCMFetch)
+![Size](https://img.shields.io/github/languages/code-size/JingBh/NCMFetch?label=size)
+![Stars](https://img.shields.io/github/stars/JingBh/NCMFetch)
+![License](https://img.shields.io/github/license/JingBh/NCMFetch)
+![Last Commit](https://img.shields.io/github/last-commit/JingBh/NCMFetch)
 
 NCMFetch 可以帮您下载[网易云音乐](https://music.163.com/)上的歌曲，不需要登录、VIP、或下载客户端。
 
-#### How to install:
+## How to install:
 
-In command line:
+### In command line:
 ```bash
 git clone https://github.com/JingBh/NCMFetch
 yarn install
 ```
 
-In your Node project:
+### In your Node project:
 ```bash
-yarn add @jingbh/ncmfetch
+yarn add ncmfetch
 # or
-npm install @jingbh/ncmfetch
+npm install ncmfetch
 ```
 
-#### How to use:
+## How to use:
 
 首先，复制歌曲URL。在各平台客户端中可以在分享歌曲时找到复制链接的选项。
 
 For example: *https://music.163.com/#/song?id=12345678*
 > 重要的是其中的 id，所以您也可以只传入 id 的值。
 
-In command line:
+### In command line:
 ```bash
 node cli [url] ...
 ```
 
-In your Node project:
+### In your Node project:
 ```javascript
-const NCMFetch = require("@jingbh/ncmfetch");
+const NCMFetch = require("ncmfetch");
 
 let ids;
 
@@ -61,4 +66,4 @@ NCMFetch(ids, function(result) {
 
 Developed by JingBh 2020
 
-Open source in GNU GPLv3 license.
+Open source under GNU GPLv3 license.
