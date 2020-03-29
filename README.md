@@ -19,9 +19,9 @@ yarn install  # run "npm install" if you don't have Yarn.
 
 ### In your Node project:
 ```bash
-yarn add ncmfetch
+yarn add https://github.com/JingBh/NCMFetch.git
 # or
-npm install ncmfetch
+npm install https://github.com/JingBh/NCMFetch.git
 ```
 
 ## How to use:
